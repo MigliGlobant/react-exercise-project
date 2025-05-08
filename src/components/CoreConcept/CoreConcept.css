@@ -1,4 +1,4 @@
-#core-concepts ul {
+.core-concepts__list {
   list-style: none;
   padding: 0;
   margin: 0;
@@ -8,21 +8,21 @@
   justify-content: center;
 }
 
-#core-concepts li {
+.core-concepts__item {
   width: 10rem;
   text-align: center;
 }
 
-#core-concepts li img {
+.core-concepts__image {
   height: 4rem;
   width: 6rem;
   object-fit: cover;
 }
 
-#core-concepts li h3 {
+.core-concepts__title {
   margin: 0.5rem 0;
 }
 
-#core-concepts li p {
+.core-concepts__description {
   font-size: 0.9rem;
 }
